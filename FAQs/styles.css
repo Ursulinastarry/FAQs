@@ -1,0 +1,50 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color: purple;
+    display:list-item;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.accordion{
+    background: purple;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-container{
+    text-align: center;
+    padding: 100px;
+    background-color: beige;
+    margin: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+.accordion-button{
+    width: 100%;
+    text-align: left;
+    background: white;
+    color: purple;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.accordion-content{
+    display: none;
+    background: white;
+    padding: 20px;
+    color: rgb(46, 43, 44);
+}
+.accordion-button:focus+.accordion-content{
+    display: block;
+}
+h1{
+    color: purple;
+}
